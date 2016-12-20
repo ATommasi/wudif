@@ -23,7 +23,7 @@ export class FeaturedQuestionComponent implements OnInit {
     constructor(
         private _qservice: QuestionService,
         private _imageservice: ImageService
-    ){ }
+    ) { }
 
     ngOnInit() {
         // get list of questions
