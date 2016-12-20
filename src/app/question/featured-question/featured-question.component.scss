@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+:host h3 {
+    font-family: 'Rock Salt', cursive;
+text-shadow: 1px 1px 11px rgba(150, 150, 150, 1);
+}
+
+:host >div  {
+    width: 50%;
+    margin-top: 60px;
+    padding: 15px;
+    color:#ccc;
+    border: 1px solid darkgray;
+    background-color: rgba(0,0,0,0.7);
+    height: 300px;
+    margin-left: auto ;
+    margin-right: auto ;
+    border-radius: 5px;
+    position: relative;
+}
+
+:host question-input {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    padding-left: 10px;
+    width: 100%;
+}
+
+ul.keywords {
+    position: absolute;
+    padding: 5px 0 5px 20px;
+    bottom: 0; 
+    left: 0;
+}
+
+ul.keywords li {
+    padding: 5px;
+    margin: 8px;
+}
+
+div.navigation {
+    position:absolute;
+    top: 200px;
+    float: right;
+    text-align: right;
+}

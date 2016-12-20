@@ -1,0 +1,28 @@
+//=========================================
+// Main stylesheet
+//=========================================
+$bgcolor: red;
+
+html {
+    background: url(/images/bg1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    transition: background-image 1s ease-in-out;
+
+}
+
+body {
+    background-color: transparent !important;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.navbar-default {
+background-image: -webkit-linear-gradient(top, #ffffff 0%, #dfdfdf 100%);
+background-image: linear-gradient(to bottom, #ffffff 0%, #dfdfdf 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffdfdfdf', GradientType=0);
+}

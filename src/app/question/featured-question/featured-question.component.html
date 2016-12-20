@@ -1,0 +1,18 @@
+
+
+<div>
+    <h3>What If...</h3>
+    {{FeaturedQuestion.question}}
+    <question-input></question-input>
+
+    <div class="navigation">
+        <a href="#" (click)="getPreviousQuestion()"><i class="fa fa-angle-double-left"> Previous</i></a> |
+        <a href="#" (click)="getNextQuestion()">Next <i class="fa fa-angle-double-right"></i></a>
+
+    </div>
+
+    <ul class="list-inline  keywords">
+        <li class="badge" *ngFor="let keyword of FeaturedQuestion.keywords">{{keyword}}</li>
+    </ul>
+</div>
+
